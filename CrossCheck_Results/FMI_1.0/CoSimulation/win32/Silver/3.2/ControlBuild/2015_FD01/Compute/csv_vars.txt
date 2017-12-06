@@ -1,0 +1,2 @@
+outDateAndTime2
+outChar

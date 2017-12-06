@@ -1,0 +1,9 @@
+[Tool]
+name=FMUSDK
+href=http://www.qtronic.de/en/fmusdk.html
+export_me=A
+import_me=A
+slave_cs=A
+master_cs=A
+note=FMU Software Development Kit from <a href="http://www.qtronic.de/">QTronic</a>.
+vendor=QTronic

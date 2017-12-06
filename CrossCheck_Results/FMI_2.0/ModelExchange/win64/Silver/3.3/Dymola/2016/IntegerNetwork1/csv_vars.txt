@@ -1,0 +1,4 @@
+y_sum
+y_product
+y_triggeredAdd
+y_multiSwitch

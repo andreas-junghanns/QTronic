@@ -1,0 +1,1635 @@
+[VERBOSE][FMUCHK] Setting log level to [DEBUG]
+[VERBOSE][FMUCHK] This binary is build without debug log messages.
+ Reconfigure with FMUCHK_ENABLE_LOG_LEVEL_DEBUG=ON and rebuild to enable debug level logging
+[INFO][FMUCHK] FMI compliance checker 2.0.1 [FMILibrary: 2.0.1] build date: Oct 24 2014
+[INFO][FMUCHK] Called with following options:
+[INFO][FMUCHK] fmuCheck.win64.exe -e lights_control_cc.log -i lights_control_in.csv -o lights_control_cc.csv -l 6 -h 0.01 -s 7 lights_control.fmu
+[INFO][FMUCHK] Will process FMU lights_control.fmu
+[VERBOSE][FMILIB] Allocating FMIL context
+[VERBOSE][FMILIB] Detecting FMI standard version
+[VERBOSE][FMIZIP] Unpacking FMU into C:\Users\adrian\AppData\Local\Temp\fmucktmpa07768
+[VERBOSE][FMIXML] Parsing XML to detect FMI standard version
+[VERBOSE][FMIXML] XML specifies FMI 1.0
+[INFO][FMILIB] XML specifies FMI standard version 1.0
+[VERBOSE][FMILIB] Parsing model description XML
+[VERBOSE][FMI1XML] Parsing XML element fmiModelDescription
+[VERBOSE][FMI1XML] Parsing XML element ModelVariables
+[VERBOSE][FMI1XML] Checking alias information
+[VERBOSE][FMI1XML] Setting up direct dependencies cross-references
+[VERBOSE][FMILIB] Parsing finished successfully
+[INFO][FMUCHK] Model name: lights_control
+[INFO][FMUCHK] Model identifier: lights_control
+[INFO][FMUCHK] Model GUID: {746a7365-6874-566a-7663-71516672003a}
+[INFO][FMUCHK] Model version: 
+[INFO][FMUCHK] FMU kind: ModelExchange
+[INFO][FMUCHK] The FMU contains:
+0 constants
+0 parameters
+0 discrete variables
+4 continuous variables
+3 inputs
+1 outputs
+0 internal variables
+0 variables with causality 'none'
+4 real variables
+0 integer variables
+0 enumeration variables
+0 boolean variables
+0 string variables
+
+[INFO][FMUCHK] Printing output file header
+[INFO][FMUCHK] Opening input file lights_control_in.csv
+[INFO][FMUCHK] Detected separator character in input file: ,
+[INFO][FMILIB] Loading 'win64' binary with 'standard32' platform types
+[VERBOSE][FMICAPI] Loaded FMU binary from C:\Users\adrian\AppData\Local\Temp\fmucktmpa07768\binaries\win64\lights_control.dll
+[VERBOSE][FMICAPI] Loading functions for the model exchange interface
+[VERBOSE][FMILIB] Successfully loaded all the interface functions
+[INFO][FMUCHK] Version returned from FMU:   1.0
+[VERBOSE][FMICAPI] Calling fmiGetModelTypesPlatform
+[VERBOSE][FMICAPI] Calling fmiInstantiateModel
+	[FMU][FMU internal][FMU status:OK] Reading a2l-file C:\Users\adrian\AppData\Local\Temp\fmucktmpa07768\binaries\win64\lights_control.a2l
+	[FMU][FMU internal][FMU status:OK] Created GUID: {746a7365-6874-566a-7663-71516672003a}
+[VERBOSE][FMICAPI] Calling fmiInitialize
+[INFO][FMUCHK] Initialized FMU for simulation starting at time 0
+[VERBOSE][FMUCHK] Simulation time: 0.01
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.02
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.03
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.04
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.05
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.06
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.07
+[VERBOSE][FMUCHK] Simulation time: 0.07
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.08
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.09
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.1
+[VERBOSE][FMUCHK] Simulation time: 0.1
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.11
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.12
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.13
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.14
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.15
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.16
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.17
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.18
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.19
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.2
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.21
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.22
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.23
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.24
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.25
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.26
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.27
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.28
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.29
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.3
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.31
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.32
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.33
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.34
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.35
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.36
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.37
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.38
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.39
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.4
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.41
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.42
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.43
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.44
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.45
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.46
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.47
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.48
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.49
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.5
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.51
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.52
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.53
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.54
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.55
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.56
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.57
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.58
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.59
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.6
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.61
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.62
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.63
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.64
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.65
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.66
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.67
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.68
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.69
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.7
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.71
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.72
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.73
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.74
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.75
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.76
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.77
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.78
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.79
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.8
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.81
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.82
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.83
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.84
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.85
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.86
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.87
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.88
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.89
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.9
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.91
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.92
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.93
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.94
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.95
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.96
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.97
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.98
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 0.99
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.01
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.02
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.03
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.04
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.05
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.06
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.07
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.08
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.09
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.1
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.11
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.12
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.13
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.14
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.15
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.16
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.17
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.18
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.19
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.2
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.21
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.22
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.23
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.24
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.25
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.26
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.27
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.28
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.29
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.3
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.31
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.32
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.33
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.34
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.35
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.36
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.37
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.38
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.39
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.4
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.41
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.42
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.43
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.44
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.45
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.46
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.47
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.48
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.49
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.5
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.51
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.52
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.53
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.54
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.55
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.56
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.57
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.58
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.59
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.6
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.61
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.62
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.63
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.64
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.65
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.66
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.67
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.68
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.69
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.7
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.71
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.72
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.73
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.74
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.75
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.76
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.77
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.78
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.79
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.8
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.81
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.82
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.83
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.84
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.85
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.86
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.87
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.88
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.89
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.9
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.91
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.92
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.93
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.94
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.95
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.96
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.97
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.98
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 1.99
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.01
+[VERBOSE][FMUCHK] Simulation time: 2.01
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.02
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.03
+[VERBOSE][FMUCHK] Simulation time: 2.03
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.04
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.05
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.06
+[VERBOSE][FMUCHK] Simulation time: 2.06
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.07
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.08
+[VERBOSE][FMUCHK] Simulation time: 2.08
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.09
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.1
+[VERBOSE][FMUCHK] Simulation time: 2.1
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.11
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.12
+[VERBOSE][FMUCHK] Simulation time: 2.12
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.13
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.14
+[VERBOSE][FMUCHK] Simulation time: 2.14
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.15
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.16
+[VERBOSE][FMUCHK] Simulation time: 2.16
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.17
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.18
+[VERBOSE][FMUCHK] Simulation time: 2.18
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.19
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.2
+[VERBOSE][FMUCHK] Simulation time: 2.2
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.21
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.22
+[VERBOSE][FMUCHK] Simulation time: 2.22
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.23
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.24
+[VERBOSE][FMUCHK] Simulation time: 2.24
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.25
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.26
+[VERBOSE][FMUCHK] Simulation time: 2.26
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.27
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.28
+[VERBOSE][FMUCHK] Simulation time: 2.28
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.29
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.3
+[VERBOSE][FMUCHK] Simulation time: 2.3
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.31
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.32
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.33
+[VERBOSE][FMUCHK] Simulation time: 2.33
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.34
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.35
+[VERBOSE][FMUCHK] Simulation time: 2.35
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.36
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.37
+[VERBOSE][FMUCHK] Simulation time: 2.37
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.38
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.39
+[VERBOSE][FMUCHK] Simulation time: 2.39
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.4
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.41
+[VERBOSE][FMUCHK] Simulation time: 2.41
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.42
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.43
+[VERBOSE][FMUCHK] Simulation time: 2.43
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.44
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.45
+[VERBOSE][FMUCHK] Simulation time: 2.45
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.46
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.47
+[VERBOSE][FMUCHK] Simulation time: 2.47
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.48
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.49
+[VERBOSE][FMUCHK] Simulation time: 2.49
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.5
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.51
+[VERBOSE][FMUCHK] Simulation time: 2.51
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.52
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.53
+[VERBOSE][FMUCHK] Simulation time: 2.53
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.54
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.55
+[VERBOSE][FMUCHK] Simulation time: 2.55
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.56
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.57
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.58
+[VERBOSE][FMUCHK] Simulation time: 2.58
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.59
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.6
+[VERBOSE][FMUCHK] Simulation time: 2.6
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.61
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.62
+[VERBOSE][FMUCHK] Simulation time: 2.62
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.63
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.64
+[VERBOSE][FMUCHK] Simulation time: 2.64
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.65
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.66
+[VERBOSE][FMUCHK] Simulation time: 2.66
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.67
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.68
+[VERBOSE][FMUCHK] Simulation time: 2.68
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.69
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.7
+[VERBOSE][FMUCHK] Simulation time: 2.7
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.71
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.72
+[VERBOSE][FMUCHK] Simulation time: 2.72
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.73
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.74
+[VERBOSE][FMUCHK] Simulation time: 2.74
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.75
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.76
+[VERBOSE][FMUCHK] Simulation time: 2.76
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.77
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.78
+[VERBOSE][FMUCHK] Simulation time: 2.78
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.79
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.8
+[VERBOSE][FMUCHK] Simulation time: 2.8
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.81
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.82
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.83
+[VERBOSE][FMUCHK] Simulation time: 2.83
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.84
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.85
+[VERBOSE][FMUCHK] Simulation time: 2.85
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.86
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.87
+[VERBOSE][FMUCHK] Simulation time: 2.87
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.88
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.89
+[VERBOSE][FMUCHK] Simulation time: 2.89
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.9
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.91
+[VERBOSE][FMUCHK] Simulation time: 2.91
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.92
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.93
+[VERBOSE][FMUCHK] Simulation time: 2.93
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.94
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.95
+[VERBOSE][FMUCHK] Simulation time: 2.95
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.96
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.97
+[VERBOSE][FMUCHK] Simulation time: 2.97
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.98
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 2.99
+[VERBOSE][FMUCHK] Simulation time: 2.99
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.01
+[VERBOSE][FMUCHK] Simulation time: 3.01
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.02
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.03
+[VERBOSE][FMUCHK] Simulation time: 3.03
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.04
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.05
+[VERBOSE][FMUCHK] Simulation time: 3.05
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.06
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.07
+[VERBOSE][FMUCHK] Simulation time: 3.07
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.08
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.09
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.1
+[VERBOSE][FMUCHK] Simulation time: 3.1
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.11
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.12
+[VERBOSE][FMUCHK] Simulation time: 3.12
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.13
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.14
+[VERBOSE][FMUCHK] Simulation time: 3.14
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.15
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.16
+[VERBOSE][FMUCHK] Simulation time: 3.16
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.17
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.18
+[VERBOSE][FMUCHK] Simulation time: 3.18
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.19
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.2
+[VERBOSE][FMUCHK] Simulation time: 3.2
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.21
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.22
+[VERBOSE][FMUCHK] Simulation time: 3.22
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.23
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.24
+[VERBOSE][FMUCHK] Simulation time: 3.24
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.25
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.26
+[VERBOSE][FMUCHK] Simulation time: 3.26
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.27
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.28
+[VERBOSE][FMUCHK] Simulation time: 3.28
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.29
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.3
+[VERBOSE][FMUCHK] Simulation time: 3.3
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.31
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.32
+[VERBOSE][FMUCHK] Simulation time: 3.32
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.33
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.34
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.35
+[VERBOSE][FMUCHK] Simulation time: 3.35
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.36
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.37
+[VERBOSE][FMUCHK] Simulation time: 3.37
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.38
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.39
+[VERBOSE][FMUCHK] Simulation time: 3.39
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.4
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.41
+[VERBOSE][FMUCHK] Simulation time: 3.41
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.42
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.43
+[VERBOSE][FMUCHK] Simulation time: 3.43
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.44
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.45
+[VERBOSE][FMUCHK] Simulation time: 3.45
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.46
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.47
+[VERBOSE][FMUCHK] Simulation time: 3.47
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.48
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.49
+[VERBOSE][FMUCHK] Simulation time: 3.49
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.5
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.51
+[VERBOSE][FMUCHK] Simulation time: 3.51
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.52
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.53
+[VERBOSE][FMUCHK] Simulation time: 3.53
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.54
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.55
+[VERBOSE][FMUCHK] Simulation time: 3.55
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.56
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.57
+[VERBOSE][FMUCHK] Simulation time: 3.57
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.58
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.59
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.6
+[VERBOSE][FMUCHK] Simulation time: 3.6
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.61
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.62
+[VERBOSE][FMUCHK] Simulation time: 3.62
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.63
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.64
+[VERBOSE][FMUCHK] Simulation time: 3.64
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.65
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.66
+[VERBOSE][FMUCHK] Simulation time: 3.66
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.67
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.68
+[VERBOSE][FMUCHK] Simulation time: 3.68
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.69
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.7
+[VERBOSE][FMUCHK] Simulation time: 3.7
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.71
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.72
+[VERBOSE][FMUCHK] Simulation time: 3.72
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.73
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.74
+[VERBOSE][FMUCHK] Simulation time: 3.74
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.75
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.76
+[VERBOSE][FMUCHK] Simulation time: 3.76
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.77
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.78
+[VERBOSE][FMUCHK] Simulation time: 3.78
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.79
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.8
+[VERBOSE][FMUCHK] Simulation time: 3.8
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.81
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.82
+[VERBOSE][FMUCHK] Simulation time: 3.82
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.83
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.84
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.85
+[VERBOSE][FMUCHK] Simulation time: 3.85
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.86
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.87
+[VERBOSE][FMUCHK] Simulation time: 3.87
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.88
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.89
+[VERBOSE][FMUCHK] Simulation time: 3.89
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.9
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.91
+[VERBOSE][FMUCHK] Simulation time: 3.91
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.92
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.93
+[VERBOSE][FMUCHK] Simulation time: 3.93
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.94
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.95
+[VERBOSE][FMUCHK] Simulation time: 3.95
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.96
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.97
+[VERBOSE][FMUCHK] Simulation time: 3.97
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.98
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 3.99
+[VERBOSE][FMUCHK] Simulation time: 3.99
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.01
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.02
+[VERBOSE][FMUCHK] Simulation time: 4.02
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.03
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.04
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.05
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.06
+[VERBOSE][FMUCHK] Simulation time: 4.06
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.07
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.08
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.09
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.1
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.11
+[VERBOSE][FMUCHK] Simulation time: 4.11
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.12
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.13
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.14
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.15
+[VERBOSE][FMUCHK] Simulation time: 4.15
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.16
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.17
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.18
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.19
+[VERBOSE][FMUCHK] Simulation time: 4.19
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.2
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.21
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.22
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.23
+[VERBOSE][FMUCHK] Simulation time: 4.23
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.24
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.25
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.26
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.27
+[VERBOSE][FMUCHK] Simulation time: 4.27
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.28
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.29
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.3
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.31
+[VERBOSE][FMUCHK] Simulation time: 4.31
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.32
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.33
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.34
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.35
+[VERBOSE][FMUCHK] Simulation time: 4.35
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.36
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.37
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.38
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.39
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.4
+[VERBOSE][FMUCHK] Simulation time: 4.4
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.41
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.42
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.43
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.44
+[VERBOSE][FMUCHK] Simulation time: 4.44
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.45
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.46
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.47
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.48
+[VERBOSE][FMUCHK] Simulation time: 4.48
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.49
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.5
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.51
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.52
+[VERBOSE][FMUCHK] Simulation time: 4.52
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.53
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.54
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.55
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.56
+[VERBOSE][FMUCHK] Simulation time: 4.56
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.57
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.58
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.59
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.6
+[VERBOSE][FMUCHK] Simulation time: 4.6
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.61
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.62
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.63
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.64
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.65
+[VERBOSE][FMUCHK] Simulation time: 4.65
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.66
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.67
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.68
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.69
+[VERBOSE][FMUCHK] Simulation time: 4.69
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.7
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.71
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.72
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.73
+[VERBOSE][FMUCHK] Simulation time: 4.73
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.74
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.75
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.76
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.77
+[VERBOSE][FMUCHK] Simulation time: 4.77
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.78
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.79
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.8
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.81
+[VERBOSE][FMUCHK] Simulation time: 4.81
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.82
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.83
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.84
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.85
+[VERBOSE][FMUCHK] Simulation time: 4.85
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.86
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.87
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.88
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.89
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.9
+[VERBOSE][FMUCHK] Simulation time: 4.9
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.91
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.92
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.93
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.94
+[VERBOSE][FMUCHK] Simulation time: 4.94
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.95
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.96
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.97
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.98
+[VERBOSE][FMUCHK] Simulation time: 4.98
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 4.99
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.01
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.02
+[VERBOSE][FMUCHK] Simulation time: 5.02
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.03
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.04
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.05
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.06
+[VERBOSE][FMUCHK] Simulation time: 5.06
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.07
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.08
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.09
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.1
+[VERBOSE][FMUCHK] Simulation time: 5.1
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.11
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.12
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.13
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.14
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.15
+[VERBOSE][FMUCHK] Simulation time: 5.15
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.16
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.17
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.18
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.19
+[VERBOSE][FMUCHK] Simulation time: 5.19
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.2
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.21
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.22
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.23
+[VERBOSE][FMUCHK] Simulation time: 5.23
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.24
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.25
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.26
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.27
+[VERBOSE][FMUCHK] Simulation time: 5.27
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.28
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.29
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.3
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.31
+[VERBOSE][FMUCHK] Simulation time: 5.31
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.32
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.33
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.34
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.35
+[VERBOSE][FMUCHK] Simulation time: 5.35
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.36
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.37
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.38
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.39
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.4
+[VERBOSE][FMUCHK] Simulation time: 5.4
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.41
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.42
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.43
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.44
+[VERBOSE][FMUCHK] Simulation time: 5.44
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.45
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.46
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.47
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.48
+[VERBOSE][FMUCHK] Simulation time: 5.48
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.49
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.5
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.51
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.52
+[VERBOSE][FMUCHK] Simulation time: 5.52
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.53
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.54
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.55
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.56
+[VERBOSE][FMUCHK] Simulation time: 5.56
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.57
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.58
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.59
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.6
+[VERBOSE][FMUCHK] Simulation time: 5.6
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.61
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.62
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.63
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.64
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.65
+[VERBOSE][FMUCHK] Simulation time: 5.65
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.66
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.67
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.68
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.69
+[VERBOSE][FMUCHK] Simulation time: 5.69
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.7
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.71
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.72
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.73
+[VERBOSE][FMUCHK] Simulation time: 5.73
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.74
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.75
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.76
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.77
+[VERBOSE][FMUCHK] Simulation time: 5.77
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.78
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.79
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.8
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.81
+[VERBOSE][FMUCHK] Simulation time: 5.81
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.82
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.83
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.84
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.85
+[VERBOSE][FMUCHK] Simulation time: 5.85
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.86
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.87
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.88
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.89
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.9
+[VERBOSE][FMUCHK] Simulation time: 5.9
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.91
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.92
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.93
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.94
+[VERBOSE][FMUCHK] Simulation time: 5.94
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.95
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.96
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.97
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.98
+[VERBOSE][FMUCHK] Simulation time: 5.98
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 5.99
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.01
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.02
+[VERBOSE][FMUCHK] Simulation time: 6.02
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.03
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.04
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.05
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.06
+[VERBOSE][FMUCHK] Simulation time: 6.06
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.07
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.08
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.09
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.1
+[VERBOSE][FMUCHK] Simulation time: 6.1
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.11
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.12
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.13
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.14
+[VERBOSE][FMUCHK] Simulation time: 6.14
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.15
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.16
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.17
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.18
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.19
+[VERBOSE][FMUCHK] Simulation time: 6.19
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.2
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.21
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.22
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.23
+[VERBOSE][FMUCHK] Simulation time: 6.23
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.24
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.25
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.26
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.27
+[VERBOSE][FMUCHK] Simulation time: 6.27
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.28
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.29
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.3
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.31
+[VERBOSE][FMUCHK] Simulation time: 6.31
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.32
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.33
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.34
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.35
+[VERBOSE][FMUCHK] Simulation time: 6.35
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.36
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.37
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.38
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.39
+[VERBOSE][FMUCHK] Simulation time: 6.39
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.4
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.41
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.42
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.43
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.44
+[VERBOSE][FMUCHK] Simulation time: 6.44
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.45
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.46
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.47
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.48
+[VERBOSE][FMUCHK] Simulation time: 6.48
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.49
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.5
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.51
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.52
+[VERBOSE][FMUCHK] Simulation time: 6.52
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.53
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.54
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.55
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.56
+[VERBOSE][FMUCHK] Simulation time: 6.56
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.57
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.58
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.59
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.6
+[VERBOSE][FMUCHK] Simulation time: 6.6
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.61
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.62
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.63
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.64
+[VERBOSE][FMUCHK] Simulation time: 6.64
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.65
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.66
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.67
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.68
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.69
+[VERBOSE][FMUCHK] Simulation time: 6.69
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.7
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.71
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.72
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.73
+[VERBOSE][FMUCHK] Simulation time: 6.73
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.74
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.75
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.76
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.77
+[VERBOSE][FMUCHK] Simulation time: 6.77
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.78
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.79
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.8
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.81
+[VERBOSE][FMUCHK] Simulation time: 6.81
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.82
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.83
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.84
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.85
+[VERBOSE][FMUCHK] Simulation time: 6.85
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.86
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.87
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.88
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.89
+[VERBOSE][FMUCHK] Simulation time: 6.89
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.9
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.91
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.92
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.93
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.94
+[VERBOSE][FMUCHK] Simulation time: 6.94
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.95
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.96
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.97
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.98
+[VERBOSE][FMUCHK] Simulation time: 6.98
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 6.99
+[VERBOSE][FMUCHK] Handling a time event
+[VERBOSE][FMUCHK] Simulation time: 7
+[VERBOSE][FMUCHK] Handling a time event
+[INFO][FMUCHK] Simulation finished successfully at time 7
+[VERBOSE][FMICAPI] Calling fmiFreeModelInstance
+[VERBOSE][FMILIB] Releasing allocated library resources
+[VERBOSE][FMILIB] Releasing FMU CAPI interface
+[VERBOSE][FMICAPI] Successfully unloaded FMU binary
+[VERBOSE][JMPRT] Removing C:\Users\adrian\AppData\Local\Temp\fmucktmpa07768
+FMU check summary:
+FMU reported:
+	0 warning(s) and error(s)
+Checker reported:
+	0 Warning(s)
+	0 Error(s)

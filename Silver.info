@@ -1,0 +1,14 @@
+[Tool]
+name=Silver
+href=http://www.qtronic.com/en/silver.html
+import_me=A
+export_me=A
+slave_cs=A
+master_cs=A
+import_me_20=A
+export_me_20=
+slave_cs_20=A
+master_cs_20=A
+note=Generation of virtual ECUs and virtual integration platform for Software in the Loop from <a href="http://www.qtronic.de/">QTronic</a>.
+email=fmu@qtronic.de
+vendor=QTronic

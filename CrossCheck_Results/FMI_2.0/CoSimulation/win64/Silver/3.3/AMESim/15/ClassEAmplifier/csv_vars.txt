@@ -1,0 +1,2 @@
+U@resistance
+I@variable_resistance

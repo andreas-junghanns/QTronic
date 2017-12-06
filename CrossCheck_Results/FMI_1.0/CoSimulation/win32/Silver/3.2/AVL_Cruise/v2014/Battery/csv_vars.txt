@@ -1,0 +1,4 @@
+FMU_Interface_OUT0_BatteryCharge
+FMU_Interface_OUT1_Current
+FMU_Interface_OUT2_NetVoltage
+FMU_Interface_OUT3_Power

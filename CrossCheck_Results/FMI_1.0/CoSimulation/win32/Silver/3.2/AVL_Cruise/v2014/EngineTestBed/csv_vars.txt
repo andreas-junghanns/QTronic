@@ -1,0 +1,5 @@
+FMU_Interface_OUT0_Engine_Power
+FMU_Interface_OUT1_Engine_Speed
+FMU_Interface_OUT2_Engine_Torque
+FMU_Interface_OUT3_Load_Signal
+FMU_Interface_OUT4_Fuel_Consumption
