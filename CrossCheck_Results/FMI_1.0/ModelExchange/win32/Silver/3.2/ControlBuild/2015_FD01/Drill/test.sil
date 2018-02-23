@@ -1,0 +1,33 @@
+<workspace>
+  <major-version>3</major-version>
+  <minor-version>7</minor-version>
+  <modules>
+    <module>
+      <sil-line>CSVReader ${inputs_csv}</sil-line>
+      <enabled condition="inputs_on">true</enabled>
+      <parallel>false</parallel>
+    </module>
+    <module>
+      <sil-line>fmu20.dll -m ${fmu_name} -4 -3 -2 -x 2</sil-line>
+      <enabled>true</enabled>
+      <parallel>false</parallel>
+    </module>
+    <module>
+      <sil-line>CsvWriter.dll -l ${output_csv_vars} -I 0.00000000001 ${output_file_name} -m t</sil-line>
+      <enabled>true</enabled>
+      <parallel>false</parallel>
+    </module>
+    <gui-module/>
+  </modules>
+  <parameters>
+    <param>
+      <name>fmu_name</name>
+      <value>&quot;c:\_data\fmi-fmu\doc\examples\FMI_1.0\ModelExchange\win32\ControlBuild\2015_FD01\Drill\drill.fmu&quot;</value>
+    </param>
+    <param>
+      <name>inputs_on</name>
+      <value>false</value>
+    </param>
+    <param>
+      <name>inputs_csv</name>
+      <value>&quot;c:\_data\fmi-fmu\doc\examples\FMI_1.0\ModelE

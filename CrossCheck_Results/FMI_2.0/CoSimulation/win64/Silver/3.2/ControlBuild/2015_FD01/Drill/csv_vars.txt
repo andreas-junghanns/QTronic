@@ -1,0 +1,4 @@
+axle position
+speedVal
+rotation
+cycleEnd

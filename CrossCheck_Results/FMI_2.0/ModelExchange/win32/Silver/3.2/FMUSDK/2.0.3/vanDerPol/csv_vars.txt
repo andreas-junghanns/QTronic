@@ -1,0 +1,5 @@
+x0
+der(x0)
+x1
+der(x1)
+mu

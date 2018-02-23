@@ -1,0 +1,8 @@
+clock.y
+data_0.y
+reset.y
+data_1.y
+dFFREG.delay.inertialDelaySensitive[1].y
+dFFREG.delay.inertialDelaySensitive[2].y
+dFFREG.dFFR.dataOut[1]
+dFFREG.dFFR.dataOut[2]

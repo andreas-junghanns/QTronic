@@ -1,0 +1,7 @@
+driveAngle
+spring.w_rel
+PI.I.y
+inertia1.phi
+spring.phi_rel
+integrator.y
+inertia1.w

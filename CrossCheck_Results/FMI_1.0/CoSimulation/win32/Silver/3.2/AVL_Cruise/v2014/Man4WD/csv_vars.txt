@@ -1,0 +1,5 @@
+FMU_Interface_OUT0_Vehicle_Acceleration
+FMU_Interface_OUT1_Vehicle_Velocity
+FMU_Interface_OUT2_Vehicle_Distance
+FMU_Interface_OUT3_Load_Signal
+FMU_Interface_OUT4_Engine_Speed
