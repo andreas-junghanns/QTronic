@@ -1,7 +1,7 @@
 displayName=FMUSDK
 homepage=http://www.qtronic.de/en/fmusdk.html
 note="FMU Software Development Kit from <a href=\"http://www.qtronic.de/\">QTronic</a>."
-email=undefined
+email=fmu@qtronic.de
 vendorId=QTronic
 
 [FMI1_0]
